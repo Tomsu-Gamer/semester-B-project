@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <!-- link for using google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<!-- ..... -->
+    <!-- google font fire animation api for logo -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation">
+          <!-- .... -->
+
+          <!-- cdn link for icons -->
+          <script src="https://kit.fontawesome.com/9a8f886906.js" crossorigin="anonymous"></script>
+
+          <!-- cdn link for logo font family -->
+          <link href="https://fonts.cdnfonts.com/css/kelaskintrial" rel="stylesheet">
+        
+          <!-- cdn link for font family of welcoming text -->
+          <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
+                
+
+          <!-- stylesheet  -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- for drop text animation -->
+    <style>
+        @keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    65% {
+        transform: translateY(-17px);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-22px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+nav.topnav .links{
+    animation: drop 0.7s linear forwards 0.2s;
+}
+    </style>
+</head>
+<body>
+    <!-- class = "font-effect-fire-animation" -->
+        <nav class = "topnav" id = "myTopnav">
+            <!-- some inline css used for logo box text-shadow -->
+            <a style="text-shadow: 1px 0px 0px #3a3c41, 1px 2px 0 #3a3c41; background-color: #DAA21B; border-radius: 60px;
+            margin: 5px 0 10px 5px;padding: 10px;"href="index.html">Vinyl Vault</a>
+
+            <a class = "links" href=""><i class="fa-solid fa-comment"></i> About Us</a>
+
+            <a class = "links" href="signUp.html"><i class="fa-solid fa-user"></i> Sign Up</a>
+
+            <a class = "links" href=""><i class = "fa-solid fa-envelope"></i> Contact Us</a>
+
+            <a class = "links" href=""><i class="fa-solid fa-image"></i> Gallery</a>
+            
+            <a class = "links" href=""><i class="fa-solid fa-screwdriver-wrench"></i> Repair Tips</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+    <section class = "image , align-center">
+
+        <section class = "landing-text">
+            <h1 class = "welcome-text">The never ending feeling of nostalgia</h1>
+            <blockquote>Get connected to the world of music and unique satisfaction of vintage audio</blockquote>
+            <Button class = "buy-button">Get Started</Button>
+        </section>
+        
+    </section>
+
+
+    <section class = "productList">
+
+        <div><h1 class = "align-center" style = "color: rgb(75, 70, 70); font-size: xx-large;
+        font-family: helvetica;
+  text-shadow: 1px 2px 0px rgb(125, 120, 120);">Latest Arrivals</h1></div>
+        
+        <div class = "product-container">
+            <!-- first product -->
+            <div class = "card">
+                <div class ="title">Product 1</div>
+                <div class = "pImg">
+                    <img src="styles/images/wallpaperflare.com_wallpaper.jpg" alt="">
+                </div>
+                <div class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta, necessitatibus </div>
+                <button class = "buy-button">Buy Now</button>
+            </div>
+
+            <!-- second product -->
+            <div class = "card">
+                <div class ="title">Product 2</div>
+                <div class = "pImg">
+                    <img src="styles/images/wallpaperflare.com_wallpaper.jpg" alt="">
+                </div>
+                <div class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta, necessitatibus </div>
+                <button class = "buy-button">Buy Now</button>
+            </div>
+
+            <!-- third product -->
+            <div class = "card">
+                <div class ="title">Product 3</div>
+                <div class = "pImg">
+                    <img src="styles/images/wallpaperflare.com_wallpaper.jpg" alt="">
+                </div>
+                <div class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta, necessitatibus </div>
+                <button class = "buy-button">Buy Now</button>
+            </div>
+
+            <!-- fourth product -->
+            <div class = "card">
+                <div class ="title">Product 4</div>
+                <div class = "pImg">
+                    <img src="styles/images/wallpaperflare.com_wallpaper.jpg" alt="">
+                </div>
+                <div class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta, necessitatibus </div>
+                <button class = "buy-button">Buy Now</button>
+            </div>
+
+            <!-- fifth product -->
+            <div class = "card">
+                <div class ="title">Product 5</div>
+                <div class = "pImg">
+                    <img src="styles/images/wallpaperflare.com_wallpaper.jpg" alt="">
+                </div>
+                <div class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta, necessitatibus </div>
+                <button class = "buy-button">Buy Now</button>
+            </div>
+
+            <!-- sixth product -->
+            <div class = "card">
+                <div class ="title">Product 6</div>
+                <div class = "pImg">
+                    <img src="styles/images/wallpaperflare.com_wallpaper.jpg" alt="">
+                </div>
+                <div class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci soluta, necessitatibus </div>
+                <button class = "buy-button">Buy Now</button>
+            </div>
+            
+    
+            
+        </div>
+
+    </section>
+    <!-- bottom nav-bar  -->
+    <footer class = "bottom-navbar , align-center">
+        <ul class = "bottom-links">
+        <li><a><i class="fa-regular fa-copyright"></i> Vinyl Vault. 2023. All rights reserved</a></li>
+        <li><a class = "hover-effect" href = "#">privacy policy</a></li>
+        <li><a class = "hover-effect" href = "#">terms and condition</a></li>
+        </ul>
+        
+      </footer>
+      <!-- js for button functionality -->
+      <script>
+        
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+      </script>
+    
+</body>
+</html>
